@@ -1,0 +1,23 @@
+<template>
+    <div>
+        <span class="list-item">
+            <img style="height: 20px" :src="require(`../static/logos/${logo}.png`)">
+            <p class="font-medium">{{ name }}</p>
+        </span>
+    </div>
+</template>
+
+<script>
+export default {
+    props: {
+        logo: String,
+        name: String
+    }
+}
+</script>
+
+<style scoped>
+.list-item {
+    @apply flex flex-row items-center space-x-2;
+}
+</style>
