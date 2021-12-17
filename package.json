@@ -17,6 +17,7 @@
     "nuxt-windicss": "^2.0.12"
   },
   "devDependencies": {
-    "@nuxtjs/dotenv": "^1.4.1"
+    "@nuxtjs/dotenv": "^1.4.1",
+    "cross-env": "^7.0.3"
   }
 }
