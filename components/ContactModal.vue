@@ -67,14 +67,14 @@ export default {
     },
     sendEmail() {
         emailjs.send(
-            process.env.EMAILJS_SERVICEID,
-            process.env.EMAILJS_TEMPLATEID,
+            process.env.NUXT_ENV_EMAILJS_SERVICEID,
+            process.env.NUXT_ENV_EMAILJS_TEMPLATEID,
             {
                 from_name: this.name,
                 from_email: this.email,
                 message: this.message
             },
-            process.env.EMAILJS_USERID
+            process.env.NUXT_ENV_EMAILJS_USERID
         );
         this.name = this.email = this.message = '';
         this.onClose();
