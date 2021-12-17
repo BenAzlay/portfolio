@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "cross-env EMAILJS_USERID=$EMAILJS_USERID nuxt build",
+    "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
@@ -17,7 +17,6 @@
     "nuxt-windicss": "^2.0.12"
   },
   "devDependencies": {
-    "@nuxtjs/dotenv": "^1.4.1",
-    "cross-env": "^7.0.3"
+    "@nuxtjs/dotenv": "^1.4.1"
   }
 }
