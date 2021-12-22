@@ -47,7 +47,15 @@ export default {
         }
       ]
     }],
+    '@nuxtjs/toast'
   ],
+
+  toast: {
+    position: 'top-center',
+    duration: 2000,
+    closeOnSwipe: true,
+    singleton: true
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

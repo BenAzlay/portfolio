@@ -76,6 +76,7 @@ export default {
             },
             process.env.NUXT_ENV_EMAILJS_USERID
         );
+        this.$toast.success(`Message sent! Thanks ${this.name}!`)
         this.name = this.email = this.message = '';
         this.onClose();
     },
