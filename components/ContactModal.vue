@@ -86,7 +86,7 @@ export default {
 
 <style scoped>
 .modal-container {
-    @apply fixed w-full h-full inset-0 z-50 overflow-hidden flex justify-center items-center animated fadeIn faster;
+    @apply fixed w-full h-full inset-0 z-50 overflow-hidden flex justify-center items-center animated;
     background: rgba(0,0,0,.7);
 }
 .modal-content {
