@@ -1,5 +1,4 @@
 require('dotenv').config()
-import { createSEOMeta } from "./utils/seo";
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
