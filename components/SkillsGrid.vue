@@ -26,9 +26,9 @@
           <h2 class="skill-subtitle">Languages:</h2>
           <p>JavaScript, Solidity</p>
           <h2 class="skill-subtitle">Technologies:</h2>
-          <LogoListItem name="web3.js" logo="Web3" />
           <LogoListItem name="Solidity" logo="Solidity" />
-          <LogoListItem name="Remix IDE" logo="Remix" />
+          <LogoListItem name="web3.js" logo="Web3" />
+          <LogoListItem name="Truffle Suite" logo="Truffle" />
         </div>
       </div>
 </template>
