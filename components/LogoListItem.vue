@@ -1,7 +1,7 @@
 <template>
     <div>
         <span class="list-item">
-            <img style="height: 20px" :src="require(`../static/logos/${logo}.png`)">
+            <nuxt-img style="height: 20px" :src="`../static/logos/${logo}.png`"/>
             <p class="font-medium">{{ name }}</p>
         </span>
     </div>

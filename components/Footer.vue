@@ -10,22 +10,49 @@
       </div>
       <p class="text-white font-semibold text-lg">You can also ping me on these sites:</p>
       <div class="flex flex-row items-center space-x-4">
-          <a class="logo-item" href="https://www.linkedin.com/in/benjaminazoulay1/"  target="_blank" rel="noopener noreferrer">
-              <img class="logo-img" src="../static/logos/LinkedIn.png" alt="LinkedIn" title="My LinkedIn">
-          </a>
-          <a class="logo-item" href="https://www.malt.fr/profile/benjaminazoulay1"  target="_blank" rel="noopener noreferrer">
-              <img class="logo-img" src="../static/logos/Malt.png" alt="Malt" title="My Malt">
-          </a>
-          <a class="logo-item" href="https://blog.benjaminazoulay.com/"  target="_blank" rel="noopener noreferrer">
-              <img class="logo-img" src="../static/logos/Hashnode.png" alt="Hashnode tutorials" title="My Tutorials">
-          </a>
-          <a class="logo-item" href="https://github.com/BenAzlay"  target="_blank" rel="noopener noreferrer">
-              <img class="logo-img" src="../static/logos/GitHub.png" alt="GitHub" title="My GitHub">
+          <a
+            v-for="(site, i) in socialNetworks"
+            :key="i" class="logo-item"
+            :href="site.url"
+            target="_blank"
+            rel="noopener noreferrer">
+              <nuxt-img class="logo-img" :src="`../static/logos/${site.image}.png`" :alt="site.title" :title="site.title"/>
           </a>
       </div>
       <p class="copyright">Copyright © 2021 Benjamin Azoulay</p>
     </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      socialNetworks: [
+        {
+          image: "LinkedIn",
+          title: "LinkedIn",
+          url: "https://www.linkedin.com/in/benjaminazoulay1/"
+        },
+        {
+          image: "Malt",
+          title: "My Malt",
+          url: "https://www.malt.fr/profile/benjaminazoulay1"
+        },
+        {
+          image: "Hashnode",
+          title: "My tutorials",
+          url: "https://blog.benjaminazoulay.com/"
+        },
+        {
+          image: "GitHub",
+          title: "My GitHub",
+          url: "https://github.com/benAzlay"
+        }
+      ]
+    }
+  }
+}
+</script>
 
 <style scoped>
 .copyright {

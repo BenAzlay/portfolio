@@ -18,6 +18,7 @@
     "nuxt-windicss": "^2.0.12"
   },
   "devDependencies": {
+    "@nuxt/image": "^0.6.1",
     "@nuxtjs/dotenv": "^1.4.1"
   }
 }

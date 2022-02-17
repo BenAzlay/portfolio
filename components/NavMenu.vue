@@ -19,17 +19,12 @@
                 </div>
 
                 <div class="logos-grid sm:nav-side">
-                    <a class="nav-item" href="https://www.malt.fr/profile/benjaminazoulay1"  target="_blank" rel="noopener noreferrer">
-                        <img class="nav-img" src="../static/logos/Malt.png" alt="Malt" title="My Malt">
-                    </a>
-                    <a class="nav-item" href="https://stackoverflow.com/users/17199954/benjamin-azoulay"  target="_blank" rel="noopener noreferrer">
-                        <img class="nav-img" src="../static/logos/StackOverflow.png" alt="StackOverflow" title="My StackOverflow">
-                    </a>
-                    <a class="nav-item" href="https://github.com/BenAzlay"  target="_blank" rel="noopener noreferrer">
-                        <img class="nav-img" src="../static/logos/GitHub.png" alt="GitHub" title="My GitHub">
-                    </a>
-                    <a class="nav-item" href="https://www.linkedin.com/in/benjaminazoulay1/"  target="_blank" rel="noopener noreferrer">
-                        <img class="nav-img" src="../static/logos/LinkedIn.png" alt="LinkedIn" title="My LinkedIn">
+                    <a
+                        v-for="(site, i) in socialNetworks"
+                        :key="i"
+                        class="nav-item"
+                        :href="site.url"  target="_blank" rel="noopener noreferrer">
+                        <nuxt-img class="nav-img" :src="`../static/logos/${site.image}.png`" :alt="site.title" :title="site.title" />
                     </a>
                 </div>
             </div>
@@ -42,7 +37,29 @@ export default {
     data() {
         return {
             opened: false,
-            mobile: false
+            mobile: false,
+            socialNetworks: [
+                {
+                    image: "Malt",
+                    title: "My Malt",
+                    url: "https://www.malt.fr/profile/benjaminazoulay1"
+                },
+                {
+                    image: "StackOverflow",
+                    title: "My StackOverflow",
+                    url: "https://stackoverflow.com/users/17199954/benjamin-azoulay"
+                },
+                {
+                    image: "GitHub",
+                    title: "My GitHub",
+                    url: "https://github.com/benAzlay"
+                },
+                {
+                    image: "LinkedIn",
+                    title: "LinkedIn",
+                    url: "https://www.linkedin.com/in/benjaminazoulay1/"
+                }
+            ]
         }
     },
     mounted() {

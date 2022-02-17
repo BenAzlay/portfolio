@@ -1,8 +1,8 @@
 <template>
     <div class="recommendation">
-        <img
-            :src="require(`../static/pictures/${reco.picture}.png`)"
-            class="picture">
+        <nuxt-img
+            :src="`../static/pictures/${reco.picture}.png`"
+            class="picture" />
         <p class="quote">
             "{{reco.content}}"
         </p>
