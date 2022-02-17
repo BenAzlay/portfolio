@@ -11,6 +11,12 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'format-detection', content: 'telephone=no' },
+      { property: "og:site_name", content: "Benjamin Azoulay | Web3 Full-Stack Developer" },
+      {
+        hid: "og:url",
+        property: "og:url",
+        content: "https://benjaminazoulay.com",
+      },
       // OG Image: Thumbnail
       {
         hid: 'og:image',
@@ -20,6 +26,11 @@ export default {
       {
         hid: 'description',
         name: 'description',
+        content: "Benjamin Azoulay is a front-end, back-end and blockchain developer, passionnate about web3. He is experienced with Vue.js, React.js, Solidity, Truffle, Express"
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
         content: "Benjamin Azoulay is a front-end, back-end and blockchain developer, passionnate about web3. He is experienced with Vue.js, React.js, Solidity, Truffle, Express"
       },
       {
