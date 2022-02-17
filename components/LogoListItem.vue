@@ -1,7 +1,7 @@
 <template>
     <div>
         <span class="list-item">
-            <nuxt-img style="height: 20px" :src="`../static/logos/${logo}.png`"/>
+            <nuxt-img style="height: 20px" :src="`../static/logos/${logo}.png`" :alt="name" />
             <p class="font-medium">{{ name }}</p>
         </span>
     </div>

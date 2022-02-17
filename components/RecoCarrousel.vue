@@ -28,7 +28,7 @@ export default {
                     picture: "Jiechao",
                     name: "Jiechao Lim",
                     role: "CTO, Healint",
-                    content: "Benjamin takes on new challenges all the way. I like his critical thinking. The team and I would have died without him!",
+                    content: "Benjamin Azoulay takes on new challenges all the way. I like his critical thinking. The team and I would have died without him!",
                 }
             ]
         }

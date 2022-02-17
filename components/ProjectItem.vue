@@ -1,7 +1,7 @@
 <template>
     <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
         <div class="project flipper">
-            <nuxt-img class="logo front" :src="`../static/logos/${logo}.png`" />
+            <nuxt-img class="logo front" :src="`../static/logos/${logo}.png`" :alt="logo" />
             <div class="info back">
                 <p class="description">{{ description }}</p>
                 <a v-if="ctaTarget.length" :href="ctaTarget"  target="_blank" rel="noopener noreferrer" class="cta">{{ cta }}</a>

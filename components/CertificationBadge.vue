@@ -3,7 +3,8 @@
         <nuxt-img
             style="height: 100px"
             :src="`../static/certifications/${image}.png`"
-            :title="title"/>
+            :title="title"
+            :alt="title" />
     </a>
 </template>
 
