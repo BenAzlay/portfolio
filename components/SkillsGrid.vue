@@ -2,17 +2,17 @@
     <div class="skill-grid">
         <div v-for="(skill, i) in skills" :key="i" :id="skill.title" class="skill-col">
           <div class="skill-section">
-            <h1 class="skill-title">{{skill.title}}</h1>
+            <h2 class="skill-title">{{skill.title}}</h2>
             <p>{{skill.description}}</p>
           </div>
           <!-- Languages -->
           <div id="languages" class="skill-section">
-            <h2 class="skill-subtitle">Languages:</h2>
+            <h3 class="skill-subtitle">Languages:</h3>
             <p>{{skill.languages}}</p>
           </div>
           <!-- Technologies -->
           <div id="technologies" class="skill-section">
-            <h2 class="skill-subtitle">Technologies:</h2>
+            <h3 class="skill-subtitle">Technologies:</h3>
             <LogoListItem
               v-for="tech in skill.technologies"
               :key="tech.name"
@@ -21,7 +21,7 @@
           </div>
           <!-- Certifications -->
           <div v-if="skill.certifications" id="technologies" class="skill-section">
-            <!-- <h2 class="skill-subtitle">Certifications:</h2> -->
+            <!-- <h3 class="skill-subtitle">Certifications:</h3> -->
             <div id="certifications" class="certification-grid">
               <CertificationBadge
                 v-for="certif in skill.certifications"

@@ -2,9 +2,9 @@
   <div style="width: 100%">
     <MainTitle />
     <div class="bg-purple-700 big-part">
-      <h1 class="salut">
+      <h2 class="salut">
         Salut ! I'm Benjamin Azoulay
-      </h1>
+      </h2>
       <p class="description">
         Creativity, Curiosity, Challenge. Three 'C's of my Character.
         That's why I'm such a passionate web developer: it taps into the fabric of my very self.
@@ -16,23 +16,23 @@
       <SkillsGrid />
     </div>
     <div class="big-part">
-      <h1 class="part-title">
+      <h2 class="part-title">
         My Recent Projects
-      </h1>
-      <h2 class="part-subtitle">
-        Professionnal, Academic & Personal. This is a non-exhaustive list. 
       </h2>
+      <h3 class="part-subtitle">
+        Professionnal, Academic & Personal. This is a non-exhaustive list. 
+      </h3>
       <div class="gap"/>
       <ProjectsGrid />
     </div>
     <div class="separator" />
     <div class="big-part">
-      <h1 class="part-title">
+      <h2 class="part-title">
         Testimonials
-      </h1>
-      <h2 class="part-subtitle">
-        Sweet recommendations from people I've worked with... 
       </h2>
+      <h3 class="part-subtitle">
+        Sweet recommendations from people I've worked with... 
+      </h3>
       <div class="gap"/>
       <RecoCarrousel />
     </div>

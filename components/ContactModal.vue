@@ -11,7 +11,7 @@
                 title="Close"
                 class="close-modal-icon" />
             <form class="flex flex-col items-center space-y-4">
-                        <h1 class="font-semibold text-2xl text-center text-green">Get in touch</h1>
+                <h2 class="font-semibold text-2xl text-center text-green">Get in touch</h2>
                 <div class="flex flex-row items-center space-x-4">
                     <InputField v-model="name" label="Name" placeholder="Vitalik Buterin" type="text" required />
                     <InputField v-model="email" label="Email" placeholder="name@example.com" type="text" required />                    

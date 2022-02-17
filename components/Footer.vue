@@ -1,8 +1,8 @@
 <template>
     <div class="bg-purple-700 bottom-part rounded-t-2xl">
-      <h1 class="text-white font-bold text-xl">
+      <h2 class="text-white font-bold text-xl">
         Interested in working working together?
-      </h1>
+      </h2>
       <div
         @click="$nuxt.$emit('message', true)"
         class="ping-button">
