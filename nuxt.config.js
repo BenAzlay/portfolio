@@ -74,7 +74,9 @@ export default {
         }
       ]
     }],
-    '@nuxtjs/toast'
+    '@nuxtjs/toast',
+    '@nuxtjs/robots',
+    '@nuxtjs/sitemap'
   ],
 
   toast: {
@@ -87,5 +89,13 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
-  target: 'static'
+  target: 'static',
+
+  robots: {
+    UserAgent: '*',
+    Disallow: ''
+  },
+  sitemap: {
+    hostname: "https://benjaminazoulay.com"
+  }
 }
