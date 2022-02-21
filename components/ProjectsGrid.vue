@@ -39,8 +39,8 @@ export default {
                     title: "SNC",
                     logo: "SNC",
                     description: "Documentation and questionnaire module for the Syndicat National des Cardiologues, made with Vue.js.",
-                    cta: "See Promotion",
-                    ctaTarget: "https://sncardiologues.fr/cotation-des-actes-un-outil-digital-innovant-pour-les-cardiologues/"
+                    cta: "360medics in-app",
+                    ctaTarget: ""
                 },
                 {
                     title: "Clinic Buddy",

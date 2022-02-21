@@ -12,6 +12,8 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'format-detection', content: 'telephone=no' },
       { property: "og:site_name", content: "Benjamin Azoulay | Web3 Full-Stack Developer" },
+      { hid: 'og-title', property: 'og:title', content: 'Benjamin Azoulay | Web3 Full-Stack Developer' },
+      { hid: 'og-type', property: 'og:type', content: 'website' },
       {
         hid: "og:url",
         property: "og:url",
@@ -40,6 +42,11 @@ export default {
       }
     ],
     link: [
+      {
+        hid: "canonical",
+        rel: "canonical",
+        href: "https://benjaminazoulay.com",
+      },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
@@ -93,7 +100,8 @@ export default {
 
   robots: {
     UserAgent: '*',
-    Disallow: ''
+    Disallow: '',
+    sitemap: 'https://benjaminazoulay.com/sitemap.xml'
   },
   sitemap: {
     hostname: "https://benjaminazoulay.com"
