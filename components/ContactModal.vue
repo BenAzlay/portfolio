@@ -90,8 +90,9 @@ export default {
     background: rgba(0,0,0,.7);
 }
 .modal-content {
-    @apply p-3 border border-gray-600 shadow-lg bg-white w-11/12 sm:w-full md:max-w-md mx-auto rounded z-50 overflow-y-auto;
+    @apply p-3 border dark:border-2 border-gray-600 shadow-lg bg-white dark:bg-dark dark:text-light w-11/12 sm:w-full md:max-w-md mx-auto rounded z-50 overflow-y-auto;
 }
+
 .close-modal-icon {
     @apply -ml-1 -mt-1 float-left cursor-pointer text-xl hover:text-red-600;
 }

@@ -56,7 +56,7 @@ export default {
 
 <style scoped>
 .copyright {
-  @apply text-dark-50 pt-4;
+  @apply text-dark pt-4;
 }
 
 .ping-button {

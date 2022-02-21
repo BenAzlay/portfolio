@@ -118,12 +118,7 @@ export default {
 }
 
 .skill-col {
-  @apply flex flex-col items-center space-y-6 bg-white shadow-lg rounded-lg px-6 py-4;
-}
-
-.dark-mode .skill-col {
-  background-color: #091a28;
-  color: #ebf4f1;
+  @apply flex flex-col items-center space-y-6 bg-white dark:bg-dark dark:text-light shadow-lg rounded-lg px-6 py-4;
 }
 
 .skill-section {

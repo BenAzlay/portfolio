@@ -24,7 +24,7 @@ export default {
 
 <style scoped>
 .project {
-  @apply w-full h-60 rounded-lg flex items-center justify-center shadow-lg border border-gray-100 dark:bg-light-900 dark:text-dark-600;
+  @apply w-full h-60 rounded-lg flex items-center justify-center shadow-lg border border-gray-100 dark:bg-light dark:text-dark;
 }
 
 .logo {
