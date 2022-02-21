@@ -36,7 +36,7 @@ export default {
       {
         hid: 'keywords',
         name: 'keywords',
-        content: 'Benjamin, Azoulay, Web3, developer, développeur, full-stack, front-end, solidity, truffle, node, engineer, ingénieur, Nuxt, Vue, Nuxtjs, Vuejs, freelance'
+        content: "Benjamin Azoulay, Web3, Web3 developer, developer, full-stack, front-end, solidity, truffle, nodejs, engineer, Nuxt, Vue, Nuxtjs, Vuejs, freelance"
       }
     ],
     link: [
