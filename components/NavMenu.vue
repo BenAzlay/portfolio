@@ -40,7 +40,7 @@ export default {
     data() {
         return {
             opened: false,
-            mobile: false,
+            mobile: true,
             socialNetworks: [
                 {
                     image: "Malt",

@@ -43,7 +43,6 @@ export default {
     ],
     link: [
       {
-        hid: "canonical",
         rel: "canonical",
         href: "https://benjaminazoulay.com",
       },
@@ -104,6 +103,7 @@ export default {
     sitemap: 'https://benjaminazoulay.com/sitemap.xml'
   },
   sitemap: {
-    hostname: "https://benjaminazoulay.com"
+    hostname: "https://benjaminazoulay.com",
+    gzip: true
   }
 }
