@@ -10,7 +10,7 @@
         </div>
         <!-- CONTENT -->
         <transition name="slide">
-            <div v-if="opened || !mobile" class="content">
+            <div v-if="opened" class="content">
                 <div class="mr-0 sm:mr-auto nav-side">
                     <div @click="$nuxt.$emit('message', true)" class="nav-item button" title="Ping me!">Get in touch</div>
                     <a
@@ -39,8 +39,7 @@
 export default {
     data() {
         return {
-            opened: false,
-            mobile: true,
+            opened: true,
             socialNetworks: [
                 {
                     image: "Malt",
@@ -63,14 +62,6 @@ export default {
                     url: "https://www.linkedin.com/in/benjaminazoulay1/"
                 }
             ]
-        }
-    },
-    mounted() {
-        this.mobile = this.isMobile;
-    },
-    computed: {
-        isMobile () {
-            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
         }
     }
 }
