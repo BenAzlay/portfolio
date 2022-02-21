@@ -4,7 +4,7 @@
       <h1 class="font-bold text-5xl text-gray-800">Front-end. Back-end. Blockchain.</h1>
       <h2 class="text-2xl mb-20">I make cutting edge full-stack web3 sites, with passion.</h2>
     </div>
-    <nuxt-img class="picture" src="/../static/Saint-Jacques.png" title="Benjamin Azoulay" alt="Benjamin Azoulay" />
+    <nuxt-img class="picture" src="/../static/Benjamin_Azoulay.jpg" title="Benjamin Azoulay" alt="Benjamin Azoulay" />
   </div>
 </template>
 
@@ -18,6 +18,6 @@ export default {}
 }
 
 .picture {
-  @apply h-50;
+  @apply h-50 rounded-full;
 }
 </style>

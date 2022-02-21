@@ -30,22 +30,22 @@ export default {
       socialNetworks: [
         {
           image: "LinkedIn",
-          title: "LinkedIn",
+          title: "Benjamin Azoulay on LinkedIn",
           url: "https://www.linkedin.com/in/benjaminazoulay1/"
         },
         {
           image: "Malt",
-          title: "My Malt",
+          title: "Benjamin Azoulay on Malt",
           url: "https://www.malt.fr/profile/benjaminazoulay1"
         },
         {
           image: "Hashnode",
-          title: "My tutorials",
+          title: "Benjamin Azoulay's tutorials (The Blockchain Benjamin)",
           url: "https://blog.benjaminazoulay.com/"
         },
         {
           image: "GitHub",
-          title: "My GitHub",
+          title: "Benjamin Azoulay on GitHub (@BenAzlay)",
           url: "https://github.com/benAzlay"
         }
       ]

@@ -12,8 +12,11 @@
         <transition name="slide">
             <div v-if="opened || !mobile" class="content">
                 <div class="mr-0 sm:mr-auto nav-side">
-                    <div @click="$nuxt.$emit('message', true)" class="nav-item button">Get in touch</div>
-                    <a class="nav-item nav-text" href="https://blog.benjaminazoulay.com"  target="_blank" rel="noopener noreferrer">
+                    <div @click="$nuxt.$emit('message', true)" class="nav-item button" title="Ping me!">Get in touch</div>
+                    <a
+                        class="nav-item nav-text" 
+                        href="https://blog.benjaminazoulay.com"  target="_blank" rel="noopener noreferrer"
+                        title="Benjamin Azoulay's tutorials (The Blockchain Benjamin)">
                         Tutorials
                     </a>
                 </div>
@@ -41,22 +44,22 @@ export default {
             socialNetworks: [
                 {
                     image: "Malt",
-                    title: "My Malt",
+                    title: "Benjamin Azoulay on Malt",
                     url: "https://www.malt.fr/profile/benjaminazoulay1"
                 },
                 {
                     image: "StackOverflow",
-                    title: "My StackOverflow",
+                    title: "Benjamin Azoulay on StackOverflow",
                     url: "https://stackoverflow.com/users/17199954/benjamin-azoulay"
                 },
                 {
                     image: "GitHub",
-                    title: "My GitHub",
+                    title: "Benjamin Azoulay on GitHub (@BenAzlay)",
                     url: "https://github.com/benAzlay"
                 },
                 {
                     image: "LinkedIn",
-                    title: "LinkedIn",
+                    title: "Benjamin Azoulay on LinkedIn",
                     url: "https://www.linkedin.com/in/benjaminazoulay1/"
                 }
             ]
@@ -92,7 +95,7 @@ export default {
 }
 
 .nav-text {
-    @apply hover:text-purple-700;
+    @apply hover:text-purple-700 font-medium;
 }
 
 .logos-grid {
