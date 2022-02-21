@@ -65,7 +65,8 @@ export default {
   buildModules: [
       'nuxt-windicss',
       '@nuxtjs/dotenv',
-      '@nuxt/image'
+      '@nuxt/image',
+      '@nuxtjs/color-mode'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

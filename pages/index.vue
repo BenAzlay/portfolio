@@ -1,7 +1,7 @@
 <template>
   <div style="width: 100%">
     <MainTitle />
-    <div class="bg-purple-700 big-part">
+    <div class="bg-green big-part">
       <h2 class="salut">
         Salut ! I'm Benjamin Azoulay
       </h2>

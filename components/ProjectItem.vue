@@ -24,7 +24,7 @@ export default {
 
 <style scoped>
 .project {
-  @apply w-full h-60 rounded-lg flex items-center justify-center shadow-lg border border-gray-100;
+  @apply w-full h-60 rounded-lg flex items-center justify-center shadow-lg border border-gray-100 dark:bg-light-900 dark:text-dark-600;
 }
 
 .logo {
@@ -40,7 +40,7 @@ export default {
 }
 
 .cta {
-    @apply text-purple-700 font-medium border border-2 border-purple-700 rounded-full py-2 px-4 hover:bg-purple-700 hover:text-white transition-colors duration-300 cursor-pointer;
+    @apply text-green font-medium border border-2 border-green rounded-full py-2 px-4 hover:bg-green hover:text-white transition-colors duration-300 cursor-pointer;
 }
 .disabled-cta {
     @apply text-gray-400 font-medium border border-2 border-gray-400 rounded-full py-2 px-4;

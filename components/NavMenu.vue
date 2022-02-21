@@ -19,6 +19,11 @@
                         title="Benjamin Azoulay's tutorials (The Blockchain Benjamin)">
                         Tutorials
                     </a>
+                    <fa-icon
+                        @click="$emit('switchColorMode')"
+                        :icon="$colorMode.preference === 'light' ? 'sun' : 'moon'" 
+                        title="Color mode"
+                        class="nav-item" />
                 </div>
 
                 <div class="logos-grid sm:nav-side">
@@ -78,7 +83,7 @@ export default {
 }
 
 .nav-img {
-    @apply h-10;
+    @apply h-10 w-10 dark:bg-white dark:rounded-md p-0.5;
 }
 
 .nav-item {
@@ -86,7 +91,7 @@ export default {
 }
 
 .nav-text {
-    @apply hover:text-purple-700 font-medium;
+    @apply hover:text-green font-medium;
 }
 
 .logos-grid {

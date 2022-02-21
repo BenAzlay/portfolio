@@ -121,6 +121,11 @@ export default {
   @apply flex flex-col items-center space-y-6 bg-white shadow-lg rounded-lg px-6 py-4;
 }
 
+.dark-mode .skill-col {
+  background-color: #091a28;
+  color: #ebf4f1;
+}
+
 .skill-section {
   @apply flex flex-col items-center space-y-3;
 }
@@ -130,7 +135,7 @@ export default {
 }
 
 .skill-subtitle {
-  @apply font-bold text-purple-700 text-base;
+  @apply font-bold text-green text-base;
 }
 .certification-grid {
   @apply flex flex-row space-x-10;
