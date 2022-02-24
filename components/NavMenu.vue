@@ -21,15 +21,15 @@
                     </a>
                     <fa-icon
                         @click="$emit('switchColorMode')"
-                        :icon="$colorMode.preference === 'light' ? 'sun' : 'moon'" 
+                        :icon="colorMode === 'light' ? 'sun' : 'moon'" 
                         title="Color mode"
                         class="nav-item" />
                 </div>
 
                 <div class="logos-grid sm:nav-side">
                     <a
-                        v-for="(site, i) in socialNetworks"
-                        :key="i"
+                        v-for="(site) in socialNetworks"
+                        :key="site.image"
                         class="nav-item"
                         :href="site.url"  target="_blank" rel="noopener noreferrer">
                         <nuxt-img class="nav-img" :src="`../static/logos/${site.image}.png`" :alt="site.title" :title="site.title" />
@@ -42,6 +42,9 @@
 
 <script>
 export default {
+    props: {
+        colorMode: String
+    },
     data() {
         return {
             opened: true,
@@ -52,17 +55,17 @@ export default {
                     url: "https://www.malt.fr/profile/benjaminazoulay1"
                 },
                 {
-                    image: "StackOverflow",
+                    image: "StackOverflowCircle",
                     title: "Benjamin Azoulay on StackOverflow",
                     url: "https://stackoverflow.com/users/17199954/benjamin-azoulay"
                 },
                 {
-                    image: "GitHub",
+                    image: "Github",
                     title: "Benjamin Azoulay on GitHub (@BenAzlay)",
                     url: "https://github.com/benAzlay"
                 },
                 {
-                    image: "LinkedIn",
+                    image: "LinkedInCircle",
                     title: "Benjamin Azoulay on LinkedIn",
                     url: "https://www.linkedin.com/in/benjaminazoulay1/"
                 }
@@ -83,7 +86,7 @@ export default {
 }
 
 .nav-img {
-    @apply h-10 w-10 dark:bg-white dark:rounded-md p-0.5;
+    @apply h-10 w-10;
 }
 
 .nav-item {

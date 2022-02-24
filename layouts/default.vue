@@ -1,6 +1,6 @@
 <template>
-  <div :class="$colorMode.preference === 'dark' ? 'dark' : 'light'">
-    <NavMenu @switchColorMode="switchColorMode" />
+  <div :class="colorMode">
+    <NavMenu @switchColorMode="switchColorMode" :colorMode="colorMode" />
     <Nuxt />
     <ContactModal v-show="messageModalOpened" />
   </div> 
@@ -18,6 +18,17 @@ export default {
     this.$nuxt.$on('message', (bool) => {
       this.messageModalOpened = bool
     })
+  },
+  mounted() {
+    // set initial theme if $colorMode === system 
+    this.colorMode = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  },
+  watch: {
+    '$colorMode.preference': {
+      handler (newColor) {
+        this.colorMode = newColor;
+      }
+    }
   },
   methods: {
     switchColorMode() {
