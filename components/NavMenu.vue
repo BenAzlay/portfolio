@@ -60,7 +60,7 @@ export default {
                     url: "https://stackoverflow.com/users/17199954/benjamin-azoulay"
                 },
                 {
-                    image: "Github",
+                    image: "GitHub",
                     title: "Benjamin Azoulay on GitHub (@BenAzlay)",
                     url: "https://github.com/benAzlay"
                 },
