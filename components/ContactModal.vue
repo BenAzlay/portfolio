@@ -23,6 +23,11 @@
                     type="textarea"
                     required
                     class="w-full" />
+                    <vue-hcaptcha   
+                        sitekey="da9381eb-f8cf-418f-9596-2e0049e01222"
+                        @verify="onVerifyCaptcha"
+                        @error="onErrorCaptcha"
+                    ></vue-hcaptcha>
                 <p class="error-message">{{ warningMessage }}</p>
                 <div
                     @click="checkInput"
@@ -36,15 +41,20 @@
 
 <script>
 import emailjs from 'emailjs-com';
+import VueHcaptcha from '@hcaptcha/vue-hcaptcha';
 
 export default {
   name: 'ContactModal',
+  components: {
+      VueHcaptcha
+  },
   data () {
     return {
         name: '',
         email: '',
         message: '',
-        warningMessage: ''
+        warningMessage: '',
+        captchaToken: ''
     }
   },
   watch: {
@@ -60,6 +70,8 @@ export default {
     checkInput() {
         if (!this.name.length || !this.email.length || !this.message.length) {
             this.warningMessage = "Please fill all the fields";
+        } else if (!this.captchaToken.length) {
+            this.warningMessage = "Please complete the Captcha";
         } else {
             this.warningMessage = "";
             this.sendEmail();
@@ -80,6 +92,16 @@ export default {
         this.name = this.email = this.message = '';
         this.onClose();
     },
+    onVerifyCaptcha (token) {
+      this.captchaToken = token;
+      this.errorMessage = '';
+    },
+
+    onErrorCaptcha (err) {
+      this.errorMessage = 'Captcha error. Please try again.';
+      this.captchaToken = '';
+      console.log("Hcaptcha error", err);
+    }
   }
 }
 </script>

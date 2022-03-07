@@ -18,7 +18,7 @@
         <textarea
             v-else
             :value="value"
-            class="border-1 p-1 h-60"
+            class="border-1 p-1 h-32 text-gray-900"
             @input="$emit('input', $event.target.value)"
             :placeholder="placeholder || label"
             autocomplete="off" />
