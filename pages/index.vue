@@ -17,7 +17,7 @@
     </div>
     <div class="big-part">
       <h2 class="part-title">
-        My Recent Projects
+        A Few Recent Projects
       </h2>
       <h3 class="part-subtitle">
         Professionnal, Academic & Personal. This is a non-exhaustive list. 

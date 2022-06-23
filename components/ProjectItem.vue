@@ -28,7 +28,7 @@ export default {
 }
 
 .logo {
-    @apply w-60 max-h-min;
+    @apply h-full p-5;
 }
 
 .info {

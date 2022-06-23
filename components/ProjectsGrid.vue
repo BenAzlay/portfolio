@@ -15,26 +15,33 @@ export default {
         return {
             projects: [
                 {
+                    title: "Flashstake",
+                    logo: "Flashstake",
+                    description: "DeFi dApp to earn instant yield with your crypto.",
+                    cta: "Visit flashstake.io",
+                    ctaTarget: "https://flashstake.io/"
+                },
+                {
                     title: "Artur.ai",
                     logo: "Artur",
                     description: "Wealth management platform for fiat & crypto, made with React & Django.",
-                    cta: "Visit website",
+                    cta: "Visit artur.ai",
                     ctaTarget: "https://artur.ai/"
                 },
                 {
                     title: "Walletvote",
                     logo: "Walletvote",
                     description: "Web3 collaborative media about companies' ethical practices, made with Nuxt, Node, Solidity, Web3.js...",
-                    cta: "See Git",
-                    ctaTarget: "https://gitlab.com/walletvote"
+                    cta: "Visit walletvote.org",
+                    ctaTarget: "https://walletvote.org"
                 },
-                {
-                    title: "MedecinAI",
-                    logo: "MedecinAI",
-                    description: "Cloud platform using AI to detect glioma tumors in MRIs, made with Vue.js, .NET, Flask...",
-                    cta: "Momentarily down",
-                    ctaTarget: ""
-                },
+                // {
+                //     title: "MedecinAI",
+                //     logo: "MedecinAI",
+                //     description: "Cloud platform using AI to detect glioma tumors in MRIs, made with Vue.js, .NET, Flask...",
+                //     cta: "Momentarily down",
+                //     ctaTarget: ""
+                // },
                 {
                     title: "SNC",
                     logo: "SNC",
