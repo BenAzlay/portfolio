@@ -1,7 +1,7 @@
 <template>
     <div class="bg-green bottom-part rounded-t-2xl">
       <h2 class="text-white font-bold text-xl">
-        Interested in working working together?
+        Interested in working together?
       </h2>
       <div
         @click="$nuxt.$emit('message', true)"
