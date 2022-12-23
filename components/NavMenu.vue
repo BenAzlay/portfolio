@@ -94,7 +94,7 @@ export default {
 }
 
 .nav-text {
-    @apply hover:text-green font-medium;
+    @apply hover:text-blue font-medium;
 }
 
 .logos-grid {

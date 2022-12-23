@@ -40,7 +40,7 @@ export default {
 }
 
 .cta {
-    @apply text-green font-medium border border-2 border-green rounded-full py-2 px-4 hover:bg-green hover:text-white transition-colors duration-300 cursor-pointer;
+    @apply text-blue font-medium border border-2 border-blue rounded-full py-2 px-4 hover:bg-blue hover:text-white transition-colors duration-300 cursor-pointer;
 }
 .disabled-cta {
     @apply text-gray-400 font-medium border border-2 border-gray-400 rounded-full py-2 px-4;

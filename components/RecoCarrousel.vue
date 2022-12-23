@@ -45,9 +45,9 @@ export default {
     @apply h-5 w-5 rounded-full;
 }
 .unselected {
-    @apply border-2 border-gray-200 hover:border-green hover:bg-green;
+    @apply border-2 border-gray-200 hover:border-blue hover:bg-blue;
 }
 .selected {
-    @apply bg-green;
+    @apply bg-blue;
 }
 </style>

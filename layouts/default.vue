@@ -48,6 +48,6 @@ body {
   color: #ebf4f1;
 }
 .button {
-  @apply transition-colors duration-300 cursor-pointer text-green font-medium border border-2 border-green rounded-full py-2 px-4 hover:bg-green hover:text-white;
+  @apply transition-colors duration-300 cursor-pointer text-blue font-medium border border-2 border-blue rounded-full py-2 px-4 hover:bg-blue hover:text-white;
 }
 </style>

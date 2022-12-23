@@ -47,17 +47,17 @@ export default {
           languages: "JavaScript, TypeScript, HTML, CSS",
           technologies: [
             {
-              name: "Nuxt.js",
-              logo: "Nuxt"
+              name: "React.js",
+              logo: "React"
             },{
               name: "Vue.js",
               logo: "Vue"
             },{
-              name: "React.js",
-              logo: "React"
-            },{
               name: "TailwindCSS",
               logo: "Tailwind"
+            },{
+              name: "Material UI",
+              logo: "mui"
             },
           ]
         },
@@ -73,6 +73,9 @@ export default {
             },{
               name: "Django",
               logo: "Django"
+            },{
+              name: "GraphQL",
+              logo: "GraphQL"
             }
           ]
         },
@@ -88,6 +91,9 @@ export default {
             },{
               name: "Web3.js",
               logo: "Web3"
+            },{
+              name: "Ethers.js",
+              logo: "ethers"
             },{
               name: "Truffle Suite",
               logo: "Truffle"
@@ -130,7 +136,7 @@ export default {
 }
 
 .skill-subtitle {
-  @apply font-bold text-green text-base;
+  @apply font-bold text-blue text-base;
 }
 .certification-grid {
   @apply flex flex-row space-x-10;

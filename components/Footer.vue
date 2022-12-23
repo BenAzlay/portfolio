@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-green bottom-part rounded-t-2xl">
+    <div class="bg-blue bottom-part rounded-t-2xl">
       <h2 class="text-white font-bold text-xl">
         Interested in working together?
       </h2>
@@ -62,7 +62,7 @@ export default {
 .ping-button {
   @apply transition-colors duration-300 cursor-pointer;
   @apply text-white text-xl font-medium border-2 border-white rounded-full py-4 px-6;
-  @apply hover:bg-white hover:text-green;
+  @apply hover:bg-white hover:text-blue;
 }
 
 .logo-img {
