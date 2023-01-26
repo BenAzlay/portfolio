@@ -15,6 +15,13 @@ export default {
         return {
             projects: [
                 {
+                    title: "Flido",
+                    logo: "Flido",
+                    description: "Instant upfront stETH yield.",
+                    cta: "Visit flido.fi",
+                    ctaTarget: "https://flido.fi/"
+                },
+                {
                     title: "Flashstake",
                     logo: "Flashstake",
                     description: "DeFi dApp to earn instant yield with your crypto.",
