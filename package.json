@@ -16,7 +16,7 @@
     "@nuxtjs/toast": "^3.3.1",
     "core-js": "^3.15.1",
     "emailjs-com": "^3.2.0",
-    "nuxt": "^2.15.8",
+    "nuxt": "^2.17.1",
     "nuxt-fontawesome": "^0.4.0",
     "nuxt-windicss": "^2.0.12"
   },

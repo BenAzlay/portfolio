@@ -15,6 +15,13 @@ export default {
         return {
             projects: [
                 {
+                    title: "Epoch",
+                    logo: "Epoch",
+                    description: "The Onchain Silicon Valley.",
+                    cta: "Visit epoch.ooo",
+                    ctaTarget: "https://epoch.ooo/"
+                },
+                {
                     title: "Flido",
                     logo: "Flido",
                     description: "Instant upfront stETH yield.",
