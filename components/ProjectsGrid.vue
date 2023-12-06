@@ -18,8 +18,8 @@ export default {
                     title: "Epoch",
                     logo: "Epoch",
                     description: "The Onchain Silicon Valley.",
-                    cta: "Visit epoch.ooo",
-                    ctaTarget: "https://epoch.ooo/"
+                    cta: "Visit epochisland.io",
+                    ctaTarget: "https://epochisland.io/"
                 },
                 {
                     title: "Flido",
