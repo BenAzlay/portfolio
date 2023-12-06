@@ -82,7 +82,7 @@ export default {
         // Web3
         {
           title: "Web3 & Blockchain",
-          description: "The 'Web 3.0' revolution is coming for a more humane internet, and I'm charging in the frontline",
+          description: "The 'Web 3.0' revolution is coming for a more humane internet, and I'm charging in the frontline.",
           languages: "JavaScript, Solidity",
           technologies: [
             {
