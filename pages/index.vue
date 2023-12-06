@@ -20,7 +20,7 @@
         A Few Recent Projects
       </h2>
       <h3 class="part-subtitle">
-        Professionnal, Academic & Personal. This is a non-exhaustive list. 
+        Professional, Academic & Personal. This is a non-exhaustive list. 
       </h3>
       <div class="gap"/>
       <ProjectsGrid />
