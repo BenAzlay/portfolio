@@ -14,10 +14,17 @@ export default {
     data() {
         return {
             projects: [
+            {
+                    title: "Stop Getting Rekt",
+                    logo: "SGR",
+                    description: "Maximize your Upside. Minimize your downside.",
+                    cta: "Stop Getting Rekt",
+                    ctaTarget: "https://stopgettingrekt.com/"
+                },
                 {
                     title: "Epoch",
                     logo: "Epoch",
-                    description: "The Onchain Silicon Valley.",
+                    description: "The First Network State.",
                     cta: "Visit epochisland.io",
                     ctaTarget: "https://epochisland.io/"
                 },
