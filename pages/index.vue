@@ -12,7 +12,7 @@
         I've been enjoying every one of my full-stack jobs, or 'challenges', as I like to call them.
         Furthermore, I want to contribute my skills to an open, private, censorship-free internet. That's Web3.
       </p>
-      <div class="gap"/>
+      <div class="gap" />
       <SkillsGrid />
     </div>
     <div class="big-part">
@@ -20,9 +20,9 @@
         A Few Recent Projects
       </h2>
       <h3 class="part-subtitle">
-        Professional, Academic & Personal. This is a non-exhaustive list. 
+        This list is not exhaustive
       </h3>
-      <div class="gap"/>
+      <div class="gap" />
       <ProjectsGrid />
     </div>
     <div class="separator" />
@@ -31,9 +31,9 @@
         Testimonials
       </h2>
       <h3 class="part-subtitle">
-        Sweet recommendations from people I've worked with... 
+        Sweet recommendations from people I've worked with...
       </h3>
-      <div class="gap"/>
+      <div class="gap" />
       <RecoCarrousel />
     </div>
     <Footer />
@@ -42,7 +42,7 @@
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       name: 'Benjamin Azoulay.'
     }
