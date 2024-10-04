@@ -11,30 +11,37 @@ export default {
         return {
             projects: [
                 {
+                    title: "^Upside",
+                    logo: "Upside",
+                    description: "^Upside | The Stock Market of X",
+                    cta: "Visit upside.wtf",
+                    ctaTarget: "https://upside.wtf/"
+                },
+                {
                     title: "Epoch",
                     logo: "Epoch",
-                    description: "The First Network State.",
+                    description: "Epoch | The First Network State",
                     cta: "Visit epochisland.io",
                     ctaTarget: "https://epochisland.io/"
                 },
                 {
                     title: "Flashstake",
                     logo: "Flashstake",
-                    description: "DeFi dApp to earn instant yield with your crypto.",
+                    description: "Flashstake | Earn instant upfront yield",
                     cta: "Visit flashstake.io",
                     ctaTarget: "https://flashstake.io/"
                 },
                 {
                     title: "Artur.ai",
                     logo: "Artur",
-                    description: "Wealth management platform for fiat & crypto.",
+                    description: "Wealth management platform for fiat & crypto",
                     cta: "Visit artur.ai",
                     ctaTarget: "https://artur.ai/"
                 },
                 {
                     title: "Eldar Sofer",
                     logo: "EldarSofer",
-                    description: "Portfolio of artist Elder Sofer.",
+                    description: "Portfolio of artist Elder Sofer",
                     cta: "Meet Eldar Sofer",
                     ctaTarget: "https://eldarsofer.com/"
                 },
