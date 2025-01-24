@@ -11,6 +11,20 @@ export default {
         return {
             projects: [
                 {
+                    title: "Riskophobe",
+                    logo: "Riskophobe",
+                    description: "Invest Risk-Free. Get Money Back",
+                    cta: "Visit Riskophobe",
+                    ctaTarget: "https://riskophobe.com/"
+                },
+                {
+                    title: "Flashstake",
+                    logo: "Flashstake",
+                    description: "Flashstake | Earn instant upfront yield",
+                    cta: "Visit flashstake.io",
+                    ctaTarget: "https://flashstake.io/"
+                },
+                {
                     title: "^Upside",
                     logo: "Upside",
                     description: "^Upside | The Stock Market of X",
@@ -25,13 +39,6 @@ export default {
                     ctaTarget: "https://epochisland.io/"
                 },
                 {
-                    title: "Flashstake",
-                    logo: "Flashstake",
-                    description: "Flashstake | Earn instant upfront yield",
-                    cta: "Visit flashstake.io",
-                    ctaTarget: "https://flashstake.io/"
-                },
-                {
                     title: "Artur.ai",
                     logo: "Artur",
                     description: "Wealth management platform for fiat & crypto",
@@ -44,13 +51,6 @@ export default {
                     description: "Portfolio of artist Elder Sofer",
                     cta: "Meet Eldar Sofer",
                     ctaTarget: "https://eldarsofer.com/"
-                },
-                {
-                    title: "Stop Getting Rekt",
-                    logo: "SGR",
-                    description: "Maximize your Upside. Minimize your downside.",
-                    cta: "Stop Getting Rekt",
-                    ctaTarget: "https://stopgettingrekt.com/"
                 },
                 {
                     title: "Clinic Buddy",
